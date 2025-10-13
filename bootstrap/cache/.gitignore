@@ -1,0 +1,27 @@
+<?php
+
+$ignoreIfNotExists = '{,.}*';
+
+return [
+    'app' => [
+        $ignoreIfNotExists,
+    ],
+    'bootstrap/cache' => [
+        $ignoreIfNotExists,
+    ],
+    'storage/app' => [
+        $ignoreIfNotExists,
+    ],
+    'storage/framework/cache' => [
+        $ignoreIfNotExists,
+    ],
+    'storage/framework/sessions' => [
+        $ignoreIfNotExists,
+    ],
+    'storage/framework/views' => [
+        $ignoreIfNotExists,
+    ],
+    'storage/logs' => [
+        $ignoreIfNotExists,
+    ],
+];
